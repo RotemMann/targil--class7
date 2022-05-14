@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sh '''
                     dir
-                    python3 hi.py
+                    python hi.py
                    ''' 
             }
         }
