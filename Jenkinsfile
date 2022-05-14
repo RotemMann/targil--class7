@@ -4,10 +4,10 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                bash'''
-                    dir
-                    python hi.py
-                   ''' 
+                bash '''
+                     dir
+                     python hi.py
+                    ''' 
             }
         }
     }
